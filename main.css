@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 20px);
+    width: calc(100vw - 20px);
+    border: 10px solid darkred;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 10px;
+    height: 90px;
+    width: 150px;
+}
